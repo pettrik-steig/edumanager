@@ -1,0 +1,14 @@
+# project: D2 Local Spike
+# created: 2026-05-23 (Data)
+# changed: 2026-05-23 (Data)
+
+direction: right
+
+teacher: Teacher
+edumanager: EduManager
+data: Local data {
+  shape: cylinder
+}
+
+teacher -> edumanager: uses
+edumanager -> data: reads/writes

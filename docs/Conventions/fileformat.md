@@ -162,6 +162,43 @@ Rules:
 - UTF-8 without BOM for project-owned files
 - prefer `.md` when the file has lasting documentation value
 
+### `.d2`
+
+D2 diagram source files.
+
+Usage:
+
+- exploratory architecture diagrams
+- workflow sketches
+- conceptual structure diagrams
+- text-based diagram sources that can be rendered locally
+
+Rules:
+
+- UTF-8 without BOM
+- use commented provenance header lines
+- keep the `.d2` source as the primary editable artifact
+- render with the project-local D2 executable in `Tools` when reproducible
+  output is needed
+
+### `.svg`
+
+Scalable Vector Graphics.
+
+Usage:
+
+- rendered diagram output from `.d2` sources
+- documentation images that should remain sharp in IntelliJ or a browser
+- source vector assets when intentionally maintained as SVG
+
+Rules:
+
+- generated SVGs should usually be committed only when they are useful as
+  stable documentation artifacts
+- generated temporary previews should normally go to `runtime`
+- SVG files imported from external tools or bundles should not be normalized
+  unless they become EduManager-owned source assets
+
 ### `.xml`
 
 XML configuration.

@@ -9,6 +9,14 @@ material.
 
 Use this directory for shared development material by default.
 
+Shared development documents:
+
+- [history.md](history.md): early project history and major working decisions
+- [architecture-tools.md](architecture-tools.md): first comparison of diagram
+  and architecture tooling candidates
+- [architecture](architecture/Readme.md): early architecture sketches and
+  exploratory diagrams
+
 Team areas:
 
 - [Alex](Alex/Readme.md): special or temporary material for Alex

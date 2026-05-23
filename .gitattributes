@@ -14,6 +14,8 @@
 *.properties text eol=lf
 *.json text eol=lf
 *.csv text eol=lf
+*.d2 text eol=lf
+*.svg text eol=lf
 
 *.png binary
 *.jpg binary
@@ -22,3 +24,4 @@
 *.ico binary
 *.pdf binary
 *.zip binary
+*.exe binary

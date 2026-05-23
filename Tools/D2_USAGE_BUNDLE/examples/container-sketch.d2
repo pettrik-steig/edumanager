@@ -1,0 +1,24 @@
+# project: D2 Local Spike
+# created: 2026-05-23 (Data)
+# changed: 2026-05-23 (Data)
+
+school: School context {
+  teacher: Teacher
+  lesson: Lesson situation
+  students: Students
+  room: Room
+
+  teacher -> lesson: plans
+  lesson -> students: involves
+  lesson -> room: happens in
+}
+
+edumanager: EduManager {
+  seating: Seating arrangement
+  timetable: Timetable
+
+  seating -> timetable: may depend on
+}
+
+school.teacher -> edumanager: uses
+edumanager.seating -> school.room: describes

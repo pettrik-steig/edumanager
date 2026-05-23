@@ -1,0 +1,16 @@
+# project: D2 Local Spike
+# created: 2026-05-23 (Data)
+# changed: 2026-05-23 (Data)
+
+direction: down
+
+input: External data
+importer: Importer
+project: EduManager project {
+  shape: page
+}
+view: Diagram or UI view
+
+input -> importer: import
+importer -> project: integrates
+project -> view: provides state

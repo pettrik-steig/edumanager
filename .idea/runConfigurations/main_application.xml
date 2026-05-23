@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="main (Application)" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="de.alex.edumanager.app.Main" />
+    <module name="edumanager" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/runtime" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

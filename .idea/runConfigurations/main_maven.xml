@@ -1,0 +1,26 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="main (Maven)" type="MavenRunConfiguration" factoryName="Maven">
+    <MavenSettings>
+      <option name="myGeneralSettings" />
+      <option name="myRunnerSettings" />
+      <option name="myRunnerParameters">
+        <MavenRunnerParameters>
+          <option name="profilesMap">
+            <map />
+          </option>
+          <option name="goals">
+            <list>
+              <option value="exec:java@app-main" />
+            </list>
+          </option>
+          <option name="pomFileName" value="$PROJECT_DIR$/pom.xml" />
+          <option name="workingDirPath" value="$PROJECT_DIR$/runtime" />
+          <option name="resolveToWorkspace" value="false" />
+        </MavenRunnerParameters>
+      </option>
+    </MavenSettings>
+    <method v="2">
+      <option name="MakeProject" enabled="true" />
+    </method>
+  </configuration>
+</component>

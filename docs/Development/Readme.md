@@ -12,6 +12,8 @@ Use this directory for shared development material by default.
 Shared development documents:
 
 - [history.md](history.md): early project history and major working decisions
+- [Architecture](Architecture/Readme.md): architecture development material and
+  scenario-based analysis
 
 Team areas:
 

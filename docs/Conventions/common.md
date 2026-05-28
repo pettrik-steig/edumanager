@@ -35,6 +35,12 @@ State documentation rule:
 - setup history, rationale, transition notes, and "how we got here" material
   belong in `docs/Development`
 
+History documentation rule:
+
+- project history is written newest first
+- older entries move downward in the same file
+- each entry should keep its concrete date in the heading
+
 When an agreement changes, update its primary home first when practical. Then
 update only those secondary references that would otherwise become misleading.
 

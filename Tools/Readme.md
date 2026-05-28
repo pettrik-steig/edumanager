@@ -15,17 +15,16 @@ Current scripts:
 
 Imported external tools:
 
-- [d2.exe](d2.exe): local D2 CLI executable for rendering text-based diagrams
-- [D2_USAGE_BUNDLE](D2_USAGE_BUNDLE/README.md): imported D2 usage notes and
-  examples
+- [D2](D2/experience-report.md): imported D2 CLI, usage bundle, archived
+  experiments, and experience report
 
-The D2 executable is kept in this directory and can be called with explicit
-source and target paths from any working directory.
+The D2 executable is kept in `Tools/D2` and can be called with explicit source
+and target paths from any working directory.
 
 Example:
 
 ```powershell
-& ".\Tools\d2.exe" ".\docs\Architecture\example.d2" ".\runtime\diagrams\example.svg"
+& ".\Tools\D2\d2.exe" ".\docs\Architecture\example.d2" ".\runtime\diagrams\example.svg"
 ```
 
 Generated diagram output should normally go to `runtime` unless a stable

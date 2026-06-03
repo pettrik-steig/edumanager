@@ -1,6 +1,6 @@
 project: EduManager 2026
 created: 2026-05-23 (Data)
-changed: 2026-05-23 (Data)
+changed: 2026-06-03 (Data)
 
 # Tools
 
@@ -11,6 +11,8 @@ rediscovering known PATH, sandbox, alias, and permission issues.
 
 Current scripts:
 
+- [check-tools.cmd](check-tools.cmd): stable Windows entry point for IntelliJ,
+  Maven, and manual checks
 - [check-tools.ps1](check-tools.ps1): verifies the local development toolchain
 
 Imported external tools:

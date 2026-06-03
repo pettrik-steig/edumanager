@@ -1,7 +1,7 @@
 <!--
   ~ project: EduManager 2026
   ~ created: 2026-05-23 (Data)
-  ~ changed: 2026-05-23 (Data)
+  ~ changed: 2026-06-03 (Data)
   -->
 
 <project xmlns="http://maven.apache.org/POM/4.0.0"
@@ -82,13 +82,10 @@
                             <goal>exec</goal>
                         </goals>
                         <configuration>
-                            <executable>pwsh</executable>
+                            <executable>C:\Windows\System32\cmd.exe</executable>
                             <arguments>
-                                <argument>-NoProfile</argument>
-                                <argument>-ExecutionPolicy</argument>
-                                <argument>Bypass</argument>
-                                <argument>-File</argument>
-                                <argument>${project.basedir}/Tools/check-tools.ps1</argument>
+                                <argument>/c</argument>
+                                <argument>${project.basedir}/Tools/check-tools.cmd</argument>
                             </arguments>
                         </configuration>
                     </execution>

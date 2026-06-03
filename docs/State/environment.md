@@ -1,6 +1,6 @@
 project: EduManager 2026
 created: 2026-05-23 (Data)
-changed: 2026-05-23 (Data)
+changed: 2026-06-03 (Data)
 
 # Environment
 
@@ -122,8 +122,11 @@ Additional JetBrains installation:
 ## ripgrep
 
 - version: `15.1.0`
-- Codex command path:
-  `C:\Users\Pettrik\AppData\Local\OpenAI\Codex\bin\ada252862d154cdd\rg.exe`
+- installed by WinGet package:
+  `BurntSushi.ripgrep.MSVC_Microsoft.Winget.Source_8wekyb3d8bbwe`
+- executable:
+  `%USERPROFILE%\AppData\Local\Microsoft\WinGet\Packages\BurntSushi.ripgrep.MSVC_Microsoft.Winget.Source_8wekyb3d8bbwe\ripgrep-15.1.0-x86_64-pc-windows-msvc\rg.exe`
+- available in user `PATH`: yes
 
 ## EduManager Java Project
 
@@ -178,6 +181,7 @@ BUILD SUCCESS
 ## Project-Local Tool Scripts
 
 - `Tools/check-tools.ps1`
+- `Tools/check-tools.cmd`
 - IntelliJ run configuration: `check-tools (Maven)`
 
 Verified toolcheck result:

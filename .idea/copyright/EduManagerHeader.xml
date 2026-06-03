@@ -1,6 +1,6 @@
 <component name="CopyrightManager">
   <copyright>
-    <option name="notice" value="Copyright (c) &amp;#36;today.year Pettrik Steig&#10;&#10;Co-Author: OpenAI Codex 5.x&#10;Co-Author: OpenAI ChatGPT 5.x&#10;&#10;Project: EduManager 2026&#10;&#10;This file is part of EduManager.&#10;&#10;This program is free software: you can redistribute it and/or modify it under&#10;the terms of the GNU General Public License version 3 as published by the&#10;Free Software Foundation.&#10;&#10;SPDX-License-Identifier: GPL-3.0-only&#10;" />
+    <option name="notice" value="Copyright (c) &amp;#36;today.year Pettrik Steig&#10;&#10;Co-Author: OpenAI Codex 5.x&#10;Co-Author: OpenAI ChatGPT 5.x&#10;&#10;Project: EduManager 2026&#10;&#10;This file is part of EduManager.&#10;&#10;This program is free software: you can redistribute it and/or modify it under&#10;the terms of the GNU Affero General Public License version 3 as published by&#10;the Free Software Foundation.&#10;&#10;SPDX-License-Identifier: AGPL-3.0-only&#10;" />
     <option name="myName" value="EduManagerHeader" />
   </copyright>
 </component>

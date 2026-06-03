@@ -164,7 +164,7 @@ Current source-header/copyright baseline:
 - AI co-authors:
   - OpenAI Codex 5.x
   - OpenAI ChatGPT 5.x
-- license marker: `SPDX-License-Identifier: GPL-3.0-only`
+- license marker: `SPDX-License-Identifier: AGPL-3.0-only`
 
 Verified build command:
 
